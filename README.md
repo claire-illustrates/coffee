@@ -1,6 +1,6 @@
 # Page for Fictional Coffee Brand Pónaire
 
-I decided to design a page for a fictional coffee roasters called Pónaire (Irish for beans). My personal asthetic leans towards more graphic and cartoony so I wanted to try designing something completely different with a more earthy palette of greens and browns to reflect a brand identity concerned with being organic, sustainable & ethical. I design and build with accessibility in mind so I've used semantic HTML, ARIA for labeling, contrasting color ratios, and tested with Axe dev tools. Everything is usable with keyboard, mouse, screen reader, or voice recognition. 
+I decided to design a page for a fictional coffee roasters called Pónaire (Irish for beans). My personal asthetic leans towards more graphic and cartoony so I wanted to try designing something completely different with a more earthy palette of greens and browns to reflect a brand identity concerned with being organic, sustainable & ethical. I design and build with accessibility in mind so I've used semantic HTML, ARIA for labeling, contrasting color ratios, and tested with Axe dev tools. Everything is usable with keyboard, mouse, screen reader, or voice recognition. The collapsing navigation is fully accessible to all users, including implementing a 'focus trap' so that when the menu is open it behaves as expected for keyboard-only users. 
 
 
 ## Screenshot
