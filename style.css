@@ -521,6 +521,10 @@ picture,
 
   /* Navbar */
 
+  .header {
+    padding: 5% 1%;
+  }
+	
   .logo {
     width: 45%;
   }
