@@ -362,8 +362,8 @@ picture,
   }
 
   .hero-section {
-    background: url(images/mobile/coffee-beans.png) center/cover;
-    padding: 0 0 125%;
+    background: url(images/mobile/coffee-beans.png) bottom/cover;
+    padding: 0 0 100%;
   }
 
   .main-heading {
@@ -524,7 +524,7 @@ picture,
   .header {
     padding: 5% 1%;
   }
-	
+
   .logo {
     width: 45%;
   }
