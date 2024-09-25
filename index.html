@@ -16,7 +16,6 @@
 
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
-  <!-- <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> -->
 
   <title>Pónaire Small Batch Coffee Roasters</title>
 
@@ -73,7 +72,7 @@
 
     <section class="grid" aria-label="about us">
 
-      <div class="grid-green-block" id="single-origin">
+      <div class="grid-green-block reveal" id="single-origin">
         <div class="grid-text">
           <h2 id="single-origin-heading" class="grid-heading">Single Origin</h2>
           <p class="grid-body">
@@ -88,20 +87,20 @@
         </div>
       </div>
 
-      <picture id="coffee-sacks">
+      <picture class="reveal" id="coffee-sacks">
         <source media="(min-width:1100px)" srcset="images/desktop/coffee-sacks.jpg">
         <source media="(max-width:1100px)" srcset="images/mobile/coffee-sacks.jpg">
         <img src="images/desktop/coffee-sacks.jpg" alt="">
       </picture>
 
-      <picture id="raw-beans">
+      <picture id="raw-beans" class="reveal">
         <source media="(min-width:1100px)" srcset="images/desktop/raw-beans.jpg">
         <source media="(max-width:1100px)" srcset="images/mobile/raw-beans.jpg">
         <img src="images/desktop/raw-beans.jpg" alt="">
       </picture>
 
 
-      <div class="grid-green-block" id="organic">
+      <div class="grid-green-block reveal" id="organic">
         <div class="grid-text">
           <h2 id="organic-heading" class="grid-heading">Organic and Sustainable</h2>
           <p class="grid-body">
@@ -116,7 +115,7 @@
         </div>
       </div>
 
-      <div class="grid-green-block" id="fair-trade">
+      <div class="grid-green-block reveal" id="fair-trade">
         <div class="grid-text">
           <h2 id="fair-trade-heading" class="grid-heading">Fair Trade</h2>
           <p class="grid-body">
@@ -131,7 +130,7 @@
         </div>
       </div>
 
-      <picture id="multi-coloured-beans">
+      <picture class="reveal" id="multi-coloured-beans">
         <source media="(min-width:1100px)" srcset="images/desktop/multi-coloured-beans.jpg">
         <source media="(max-width:1100px)" srcset="images/mobile/multi-coloured-beans.jpg">
         <img src="images/desktop/coffee-sacks.jpg" alt="">
@@ -147,7 +146,7 @@
         Our Suppliers
       </h2>
 
-      <div class="suppliers-content">
+      <div class="suppliers-content reveal">
 
         <img class="supplier-img" src="images/farmer.jpg" alt="">
         <p class="supplier-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -164,7 +163,7 @@
 
     <!-- Image Gallery -->
 
-    <div class="gallery" id="gallery-block">
+    <div class="gallery reveal" id="gallery-block">
 
       <picture>
         <source media="(min-width:1101px)" srcset="images/desktop/beans-closeup.jpg">
@@ -214,7 +213,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>
