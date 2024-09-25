@@ -70,26 +70,36 @@ picture,
 .learn-more-link,
 .main-heading,
 .suppliers-heading {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
 }
 
 /* Skiplink */
 
 .skiplink {
-	position: absolute;
-	transform: translateX(-100%);
-	background-color: white;
-	z-index: 3;
-	left: 0;
-	top: 0;
-	padding: 30px;
+  position: absolute;
+  transform: translateX(-100%);
+  background-color: white;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  padding: 30px;
   font-size: 20px;
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .skiplink:focus {
-  outline: 2px solid #7A3633;
-	transform: translateX(0);
+  outline: 2px solid #7a3633;
+  transform: translateX(0);
+}
+
+/* Reveal */
+
+.reveal {
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active {
+  opacity: 1;
 }
 
 /* Hero Section */
@@ -119,23 +129,23 @@ picture,
 }
 
 .logo:focus-visible {
-  outline: 2px solid #7A3633;
+  outline: 2px solid #7a3633;
 }
 
 .js-navigation[aria-hidden="true"] {
-    display: none;
-  }
+  display: none;
+}
 
 .js-menu-button {
   border: 2px solid transparent;
-  color: #4A231E;
+  color: #4a231e;
   font-size: 24px;
   font-size: 1.5rem;
   padding: 10px;
 }
 
 .js-menu-button:focus-visible {
-  outline: 2px solid #7A3633;
+  outline: 2px solid #7a3633;
 }
 
 .button-text {
@@ -143,7 +153,7 @@ picture,
 }
 
 .js-navigation {
-  background-color: #DEE3DD;
+  background-color: #dee3dd;
   left: 3rem;
   position: absolute;
   top: 7rem;
@@ -166,7 +176,7 @@ picture,
 }
 
 .nav-link:focus-visible {
-  outline: 2px solid #57576B;
+  outline: 2px solid #57576b;
 }
 
 .contact {
@@ -178,11 +188,11 @@ picture,
 
 .contact:focus-visible {
   background: #fff;
-  outline: 2px solid #57576B;
+  outline: 2px solid #57576b;
 }
 
 .main-heading {
-  color: #4A231E;
+  color: #4a231e;
   font-size: 72px;
   font-size: 3rem;
   left: 30%;
@@ -207,7 +217,7 @@ picture,
 
 .grid-green-block {
   align-items: center;
-  background: #DEE3DD;
+  background: #dee3dd;
   width: 50%;
 }
 
@@ -223,7 +233,7 @@ picture,
 }
 
 .grid-body {
-  color: #57576B;
+  color: #57576b;
   margin-bottom: 10%;
 }
 
@@ -235,11 +245,11 @@ picture,
 }
 
 .learn-more-link:focus-visible {
-  outline: 2px solid #57576B;
+  outline: 2px solid #57576b;
 }
 
 .link-underline {
-  background-color: #899B85;
+  background-color: #899b85;
   height: 10px;
   opacity: 0.5;
   position: absolute;
@@ -256,7 +266,7 @@ picture,
 
 .suppliers-content {
   align-items: center;
-  background-color: #EDEEEC;
+  background-color: #edeeec;
   justify-content: space-evenly;
   padding: 5%;
   margin: 0 auto;
@@ -272,15 +282,15 @@ picture,
   color: #000;
   font-size: 32px;
   font-size: 2rem;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   margin-block-end: 0;
   margin-block-start: 0;
-  margin-bottom: 8% ;
+  margin-bottom: 8%;
   text-align: center;
 }
 
 .supplier-text {
-  color: #57576B;
+  color: #57576b;
   line-height: 1.5;
   padding: 3%;
   width: 40%;
@@ -289,8 +299,8 @@ picture,
 /* Footer */
 
 .footer {
-  background-color: #DEE3DD;
-  color: #4A231E;
+  background-color: #dee3dd;
+  color: #4a231e;
   justify-content: space-around;
   height: 300px;
   padding: 2% 0;
@@ -325,13 +335,12 @@ picture,
 
 .footer-icon:focus-visible,
 .footer-link:focus-visible {
-  outline: 2px solid #7A3633;
+  outline: 2px solid #7a3633;
 }
 
 /* Tablet //////////////////////////////////////////////////////////////////*/
 
 @media (max-width: 1100px) {
-
   picture {
     width: 100%;
   }
@@ -379,8 +388,8 @@ picture,
   }
 
   .js-navigation {
-    background: #DEE3DD;
-    color: #57576B;
+    background: #dee3dd;
+    color: #57576b;
     display: none;
     left: 5%;
     padding: 5% 0;
@@ -430,7 +439,7 @@ picture,
     order: 6;
   }
 
-  .grid-green-block{
+  .grid-green-block {
     text-align: center;
     width: 100%;
   }
@@ -504,11 +513,9 @@ picture,
   .icons-div {
     width: 30%;
   }
-
 }
 
 @media (max-width: 600px) {
-
   /* Font Sizes  */
 
   .learn-more-link,
@@ -620,15 +627,13 @@ picture,
   .icons-div {
     width: 50%;
   }
-
 }
 
-@media (hover:hover) and (pointer:fine) {
-
+@media (hover: hover) and (pointer: fine) {
   .js-menu-button:hover,
   .logo:hover {
-    background-color: #EDEEEC;
-    border-bottom: 2px solid #7A3633;
+    background-color: #edeeec;
+    border-bottom: 2px solid #7a3633;
   }
 
   .nav-link:hover {
@@ -650,7 +655,6 @@ picture,
   .footer-icon:hover,
   .footer-link:hover {
     border-radius: 10px;
-    outline: 2px solid #7A3633;
+    outline: 2px solid #7a3633;
   }
-
 }
